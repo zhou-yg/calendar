@@ -1,0 +1,83 @@
+/*head*/
+#calendar #calendar_header {
+	background: #FFFFFF;
+	width: 100%;
+	height: 15%;
+}
+#calendar #calendar_header_left{
+	width: 10%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+#calendar #calendar_header_center{
+	width: 80%;
+	height: 100%;
+	line-height:23.25px;   /* 在JS中需要手动设置      #calendar.height * 0.15 */
+	text-align:center;
+	float: left;
+	
+	cursor: default;
+}
+#calendar #calendar_header_right{
+	width: 10%;
+	height: 100%;
+	float: right;
+	cursor:pointer;
+}
+#calendar #calendar_bodier{
+	width: 100%;
+	height: 85%;
+}
+#calendar tbody{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#calendar #calendar_bodier_day_table{
+	width: 100%;
+	height: 15%;
+	
+	cursor:default;
+}
+/*body*/
+#calendar #calendar_bodier_date_table_box{
+	width: 100%;
+	height: 85%;
+}
+#calendar #calendar_bodier_date_table{
+	width: 100%;
+	height: 100%;
+	border-spacing:0px;
+	position: relative;
+}
+#calendar tr.t1{
+}
+#calendar tr.t2{
+}
+#calendar tr.t3{
+}
+#calendar tr.t4{
+}
+#calendar tr.t5{
+}
+#calendar tr.t6{
+}
+#calendar tr.t7{
+}
+#calendar_bodier_date_table td.normal{
+}
+#calendar_bodier_date_table td.other{
+	opacity: 0.6;
+}
+#calendar_bodier_date_table td.theCurrent{
+	color: #5794BF;
+	padding:1px;
+	border: 1px solid #5794BF;
+}
+#calendar_bodier_date_table td:hover{
+	background:#130c0e;
+	color:#FFFFFF;
+	cursor: pointer;
+	/*border: 2.5px solid #FFFFFF;*/
+}
